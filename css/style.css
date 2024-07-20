@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'MaterialIcons';
+  src:  url('../fonts/MaterialIcons-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'HarmonyOS';
+  src:  url('../fonts/HarmonyOS_Sans_SC_Bold.ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'HarmonyOS';
+  src:  url('../fonts/HarmonyOS_Sans_SC_Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'HarmonyOS';
+  src:  url('../fonts/HarmonyOS_Sans_SC_Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+*{margin:0px; padding:0px; font-family:"HarmonyOS"}
+.clear{clear:both;}
+.interbox{position:absolute; width:100%; left:0;top:0; z-index:9;}
+html{margin:0px; padding:0px; color:#FFF}
+li{list-style:none;}
+.btn{width:60%; height:0.8rem; line-height:0.8rem; font-size:0.35rem; border-radius:0.4rem;background-image: linear-gradient(to right, #fefefe , #9a999b); border:none;box-shadow: 0rem 0rem 0.04rem 0.04rem #CCC;}
+body{max-width:750px; margin:0px auto; font-size:0px;}
+.toperbox{width:100%; position:relative; text-align:center; margin:0px; padding:0px; display:block;}
+.toperbox img.tbg{width:100%; border:none; margin:0px; padding:0px;}
+.toperbox .logo{height:0.8rem; float:left; margin-top:0.4rem; width:100%}
+.toperbox .logo img{height:100%; float:right; background-color:#FFF; box-sizing:border-box; padding:10px; margin-right:0.4rem}
+.toperbox h3{font-size:0.6rem; line-height:0.7rem}
+.toperbox h4{font-size:0.6rem;line-height:0.8rem}
+.toperbox p{font-size:0.25rem; border:#FFF solid 1px; width:2.5rem; height:0.5rem; line-height:0.5rem; margin:0.2rem auto; border-radius:0.25rem;}
+.secondbox{width:100%; position:relative; text-align:center;margin:0px; padding:0px;display:block;}
+.secondbox img.tbg{width:100%;}
+.secondbox .vdbox{width:85%; margin:0px auto; margin-top:0.5rem; background-color:rgba(0,0,0,0.4) }
+.secondbox h3{font-size:0.4rem; line-height:0.5rem; margin-top:0.5rem}
+.secondbox .info{width:70%; float:left; margin-left:15%; font-weight:500; margin-top:0.5rem}
+.secondbox .info p{font-size:0.3rem; line-height:0.5rem; color:#000; text-align:left; margin-top:0.5rem}
+.secondbox .ld{float:left; font-size:0.3rem; color:#000; width:80%; text-align:left; margin-left:15%; line-height:0.5rem; margin-top:1.5rem}
+.secondbox .ld span{display:inline-block; width:0.06rem; height:0.06rem; border-radius:50%; background-color:#000; margin:0px 0.05rem}
+.threebox{width:100%; position:relative; text-align:center;margin:0px; padding:0px;display:block;}
+.threebox img.tbg{width:100%;}
+.threebox .tit{font-size:0.4rem; line-height:0.6rem;color:#FFF; width:85%; text-align:left; margin:0px auto; margin-top:0.7rem; font-weight:600}
+.threebox img.xx{width:85%; margin:0px auto; margin-top:0.5rem}
+.threebox p{font-size:0.28rem; line-height:0.5rem; text-align:left; width:85%; margin:0px auto; margin-top:0.5rem}
+.threebox .vdbox{width:85%; margin:0px auto; margin-top:0.6rem}
+.threebox .btn{margin-top:0.3rem;}
+.threebox .btn:hover{box-shadow: 0rem 0rem 0.04rem 0.04rem #FFF;}
+.fourbox{width:100%; position:relative; text-align:center;margin:0px; padding:0px;display:block;}
+.fourbox img.tbg{width:100%;}
+.fourbox .tit{font-size:0.4rem; line-height:0.6rem;color:#FFF; width:85%; text-align:left; margin:0px auto; margin-top:0.5rem; color:#000; font-weight:600}
+.fourbox .xx{width:85%; margin:0px auto; margin-top:0.4rem; text-align:left}
+.fourbox .xx img{width:48%;}
+.fourbox p{font-size:0.28rem; line-height:0.5rem; text-align:left; width:85%; margin:0px auto; margin-top:0.4rem; color:#000}
+.fourbox .vdbox{width:85%; margin:0px auto; margin-top:0.4rem}
+.fourbox .btn{margin-top:0.5rem;}
+.fourbox .btn:hover{box-shadow: 0rem 0rem 0.04rem 0.04rem #FFF;}
+.fivebox{width:100%; position:relative; text-align:center;margin:0px; padding:0px;display:block;}
+.fivebox img.tbg{width:100%;}
+.fivebox h3{font-size:0.6rem; line-height:0.8rem; margin-top:0.6rem; color:#000}
+.fivebox a{display:block; width:40%; margin:0px auto; margin-top:4rem}
+.fivebox a img{width:100%;}
+.kfbox{ width:100%; max-width:750px;}
+.kfbox .kf{width:1rem; position:fixed; top:10%; z-index:999}
+.kfbox a{float:left; display:block; width:80%; margin-top:0.3rem; margin-left:10%}
+.kfbox a img{width:100%;}
